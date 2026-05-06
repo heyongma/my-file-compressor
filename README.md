@@ -1,5 +1,27 @@
+
+
+```markdown
 # my-file-compressor
 A command-line file compressor and decompressor implementing the RLE algorithm in C.
+
+## Introduction
+This program can compress and decompress files using RLE (Run-Length Encoding) algorithm.
+It supports binary file operations and provides a simple command-line menu.
+
+## Functions
+- Compress file
+- Decompress file
+- Help information
+
+## How to use
+1. Input the source file name
+2. Input the output file name
+3. The program will finish compression or decompression automatically
+
+---
+
+## Source Code
+```c
 /* Complete RLE File Compressor - Fixed Version */
 #include <stdio.h>
 #include <stdlib.h>
@@ -268,3 +290,6 @@ void print_help() {
     clear_input_buffer();
     getchar();
 }
+```
+```
+
